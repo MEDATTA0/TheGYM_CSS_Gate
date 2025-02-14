@@ -539,6 +539,9 @@
   .m-2 {
     margin: calc(var(--spacing) * 2);
   }
+  .m-10 {
+    margin: calc(var(--spacing) * 10);
+  }
   .mx-2 {
     margin-inline: calc(var(--spacing) * 2);
   }
@@ -592,6 +595,18 @@
   }
   .h-\[100vh\] {
     height: 100vh;
+  }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
+  .w-1\/4 {
+    width: calc(1/4 * 100%);
+  }
+  .w-3 {
+    width: calc(var(--spacing) * 3);
+  }
+  .w-3\/4 {
+    width: calc(3/4 * 100%);
   }
   .w-\[90vh\] {
     width: 90vh;
@@ -879,6 +894,9 @@
   .text-\[\#B1964D\] {
     color: #B1964D;
   }
+  .text-\[\#E1E8F2\] {
+    color: #E1E8F2;
+  }
   .text-\[\#d2d2d2\] {
     color: #d2d2d2;
   }
@@ -936,6 +954,13 @@
     &:hover {
       @media (hover: hover) {
         border-color: var(--color-gray-500);
+      }
+    }
+  }
+  .hover\:bg-\[\#0C2340\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #0C2340;
       }
     }
   }
@@ -1007,6 +1032,11 @@
       grid-row-start: 1;
     }
   }
+  .md\:m-0 {
+    @media (width >= 48rem) {
+      margin: calc(var(--spacing) * 0);
+    }
+  }
   .md\:my-5 {
     @media (width >= 48rem) {
       margin-block: calc(var(--spacing) * 5);
@@ -1060,6 +1090,16 @@
   .md\:h-\[90\%\] {
     @media (width >= 48rem) {
       height: 90%;
+    }
+  }
+  .md\:w-1\/2 {
+    @media (width >= 48rem) {
+      width: calc(1/2 * 100%);
+    }
+  }
+  .md\:w-1\/4 {
+    @media (width >= 48rem) {
+      width: calc(1/4 * 100%);
     }
   }
   .md\:w-3\/4 {
@@ -1278,6 +1318,12 @@
       line-height: var(--tw-leading, var(--text-4xl--line-height));
     }
   }
+  .md\:text-5xl {
+    @media (width >= 48rem) {
+      font-size: var(--text-5xl);
+      line-height: var(--tw-leading, var(--text-5xl--line-height));
+    }
+  }
   .md\:text-lg {
     @media (width >= 48rem) {
       font-size: var(--text-lg);
@@ -1420,6 +1466,16 @@
   .lg\:h-\[90\%\] {
     @media (width >= 64rem) {
       height: 90%;
+    }
+  }
+  .lg\:h-\[100vh\] {
+    @media (width >= 64rem) {
+      height: 100vh;
+    }
+  }
+  .lg\:w-1\/4 {
+    @media (width >= 64rem) {
+      width: calc(1/4 * 100%);
     }
   }
   .lg\:w-\[60vw\] {
