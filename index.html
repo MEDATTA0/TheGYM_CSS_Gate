@@ -4,25 +4,111 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="output.css" />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Document</title>
   </head>
   <body>
+    <header></header>
     <main class="grid">
+      <section
+        class="w-[100vw] h-[100vh] bg-[url('images/campus_spring_scenic-1200.webp')] bg-cover"
+      >
+        <div
+          class="w-[100vw] h-[100vh] grid md:grid-cols-2 lg:grid-cols-3 md:p-10 lg:p-20 bg-[#0C2340] opacity-90 text-white text-center md:text-right"
+        >
+          <div class="lg:col-start-3 font-[GPC]">
+            <div class="lg:text-8xl font-bold">
+              <p>WHAT WOULD</p>
+              <div>
+                <img
+                  src="images/monogram-32.png"
+                  alt=""
+                  width="30"
+                  class="place-self-end"
+                />
+              </div>
+              <p>YOU FIGHT FOR?</p>
+            </div>
+            <div>
+              <p>
+                Notre Dame attracts people willing to take action to find
+                solutions to humanity's most pressing challenges. "What would
+                you fight for?" For us, it's not a question. It's a call to
+                action. We are the Fighting Irish
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="md:w-[90vw] grid place-self-center md:grid-col-2 lg:grid-cols-3 lg:grid-rows-1 md:mb-10 lg:mb-20 text-[#0C2340]"
+      >
+        <div
+          class="md:col-span-2 lg:col-span-1 md:grid-cols-3 hover:bg-[#EDF2F9] duration-300 hover:border-b-4 hover:border-[#C1CDDD]"
+        >
+          <div><img src="images/nafsa_800.webp" alt="" class="" /></div>
+          <div class="p-5 lg:pr-0 md:col-span-2 lg:col-span-1">
+            <p class="text-[#575757] text-lg">INTERNATIONAL</p>
+            <p class="text-xl lg:text-3xl">
+              University of Notre Dame wins award for excellence in campus
+              internationalization
+            </p>
+          </div>
+        </div>
+
+        <div class="lg:col-span-2 grid lg:grid-rows-2 lg:p-10">
+          <div class="">
+            <div
+              class="font-[Sumana] hover:bg-[#E1E8F2] duration-300 hover:border-b-4 hover:border-[#C1CDDD]"
+            >
+              <div class="p-5">
+                <p class="text-[#575757] text-lg">FACULTY AND STAFF</p>
+                <p class="text-xl lg:text-2xl">
+                  Physicist Laura Fields granted a Presidential Early Career
+                  Award
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div
+              class="font-[Sumana] hover:bg-[#E1E8F2] duration-300 hover:border-b-4 hover:border-[#C1CDDD]"
+            >
+              <div class="p-5">
+                <p class="text-[#575757] text-lg">GLOBAL</p>
+                <p class="text-xl lg:text-2xl">
+                  University of Notre Dame and Pontificia Universidad Catolica
+                  de Chile dual PhD program welcomes all disciplines
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="bg-[#0C2340] grid grid-rows-3 md:gap-10">
         <div class="grid md:grid-cols-2">
-          <div>
+          <div class="md:-translate-y-[5%]">
             <img
               src="images/pillar-research-800.jpeg"
               alt=""
-              class="lg:w-[60vw]"
+              class="lg:w-[70vw]"
             />
           </div>
-          <div class="text-white self-center grid gap-4 p-5 md:px-10 lg:px-20">
+          <div class="text-white self-center grid gap-5 p-5 md:px-10 lg:px-20">
             <p class="text-lg lg:text-2xl text-[#d2d2d2]">RESEARCH</p>
             <p class="text-2xl lg:text-5xl font-[GPC]">
               <strong> The Opportunity of Inquiry </strong>
             </p>
-            <p class="text-lg">
+            <p class="text-lg lg:text-xl font-['Libre Franklin']">
               For scholars who share a common passion for inquiry because of
               what it can reveal about our world and ourselves, there is
               opportunity here.
@@ -30,9 +116,83 @@
 
             <a
               href="#"
-              class="flex hover:bg-[#143865] p-2 lg:mx-10 rounded-xl duration-300 place-self-end font-['Libre Franklin'] text-white"
+              class="flex hover:bg-[#143865] p-4 lg:mx-10 rounded-xl duration-300 place-self-end font-['Libre Franklin'] text-white"
             >
               <p class="text-lg md:text-xl self-center mx-2">Research at ND</p>
+              <img
+                src="images/arrow-right-s-line.svg"
+                alt=""
+                width="20"
+                class="self-center"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-2">
+          <div>
+            <img
+              src="images/pillar-faith-800.jpeg"
+              alt=""
+              class="lg:w-[70vw]"
+            />
+          </div>
+          <div
+            class="text-white self-center grid gap-5 md:col-start-1 md:row-start-1 p-5 md:px-10 lg:px-20"
+          >
+            <p class="text-lg lg:text-2xl text-[#d2d2d2]">FAITH & SERVICE</p>
+            <p class="text-2xl lg:text-5xl font-[GPC]">
+              <strong>The Demands of Justice</strong>
+            </p>
+            <p class="text-lg lg:text-xl font-['Libre Franklin']">
+              Notre Dame is animated by a faith that inspires us to seek
+              knowledge because of the powerful tool it can be to improve
+              humankind.
+            </p>
+
+            <a
+              href="#"
+              class="flex hover:bg-[#143865] p-4 lg:mx-10 rounded-xl duration-300 place-self-end font-['Libre Franklin'] text-white"
+            >
+              <p class="text-lg md:text-xl self-center mx-2">
+                Faith & Service at ND
+              </p>
+              <img
+                src="images/arrow-right-s-line.svg"
+                alt=""
+                width="20"
+                class="self-center"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-2">
+          <div>
+            <img
+              src="images/pillar-global-800.jpeg"
+              alt=""
+              class="lg:w-[70vw] lg:translate-y-[5%]"
+            />
+          </div>
+          <div class="text-white self-center grid gap-5 p-5 md:px-10 lg:px-20">
+            <p class="text-lg lg:text-2xl text-[#d2d2d2]">GLOBAL</p>
+            <p class="text-2xl lg:text-5xl font-[GPC]">
+              <strong>The Connected World</strong>
+            </p>
+            <p class="text-lg lg:text-xl font-['Libre Franklin']">
+              Notre Dame seeks to be in the world, and to bring the world to
+              Notre Dame, because inquiry and scholarly exchange are enriched by
+              the pursuit of cultural fluency.
+            </p>
+
+            <a
+              href="#"
+              class="flex hover:bg-[#143865] p-4 lg:mx-10 rounded-xl duration-300 place-self-end font-['Libre Franklin'] text-white"
+            >
+              <p class="text-lg md:text-xl self-center mx-2">
+                Global Scholarship at ND
+              </p>
               <img
                 src="images/arrow-right-s-line.svg"
                 alt=""
