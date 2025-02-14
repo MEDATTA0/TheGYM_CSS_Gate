@@ -16,20 +16,131 @@
   </head>
   <body class="">
     <header
-      class="grid lg:grid-rows-1 lg:grid-cols-2 bg-[#0C2340] border-y-4 border-t-[#AE9142] border-b-[#081629]"
+      class="grid lg:grid-rows-1 lg:grid-cols-2 lg:px-10 bg-[#0C2340] border-y-4 border-t-[#AE9142] border-b-[#081629]"
     >
-      <div class="p-10 place-self-center">
-        <a href="#"><img src="images/logo.png" alt="" width="200" /></a>
+      <div class="p-8 place-self-center lg:place-self-start">
+        <a href="#">
+          <img src="images/logo.png" alt="" width="200" class="lg:w-1/2" />
+        </a>
       </div>
-      <div class="hidden lg:block"></div>
+      <div class="hidden lg:grid gap-4 mx-10">
+        <div class="flex justify-end">
+          <div class="flex place-self-end px-2 border-r-2 border-r-white">
+            <a
+              href="#"
+              class="flex hover:bg-[#143865] p-2 rounded-xl duration-300 place-self-end font-['Libre Franklin'] text-white"
+            >
+              <p class="text-lg self-center mx-2 font-bold">
+                <strong>About</strong>
+              </p>
+            </a>
+            <a
+              href="#"
+              class="flex hover:bg-[#143865] p-2 rounded-xl duration-300 place-self-end font-['Libre Franklin'] text-white"
+            >
+              <p class="text-lg self-center mx-2 font-bold">
+                <strong>Visit</strong>
+              </p>
+            </a>
+          </div>
+
+          <div class="flex">
+            <a
+              href="#"
+              class="flex hover:bg-[#143865] p-2 rounded-xl duration-300 place-self-end font-['Libre Franklin'] text-white"
+            >
+              <p class="text-lg md:text-xl self-center mx-2">Give</p>
+              <img
+                src="images/external-link-gold.svg"
+                alt=""
+                width="20"
+                class="self-center"
+              />
+            </a>
+
+            <a
+              href="#"
+              class="flex hover:bg-[#143865] p-2 rounded-xl duration-300 place-self-end font-['Libre Franklin'] text-white"
+            >
+              <p class="text-lg md:text-xl self-center mx-2">Alumni</p>
+              <img
+                src="images/external-link-gold.svg"
+                alt=""
+                width="20"
+                class="self-center"
+              />
+            </a>
+
+            <a
+              href="#"
+              class="flex hover:bg-[#143865] p-2 rounded-xl duration-300 place-self-end font-['Libre Franklin'] text-white"
+            >
+              <p class="text-lg md:text-xl self-center mx-2">Athletics</p>
+              <img
+                src="images/external-link-gold.svg"
+                alt=""
+                width="20"
+                class="self-center"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          class="z-20 bg-white text-lg text-center flex justify-around translate-y-[50%]"
+        >
+          <a
+            href="#"
+            class="p-4 hover:bg-[#EDF2F9] hover:border-b-4 hover:border-b-[#C1CDDD] duration-300"
+            ><p>Academics</p></a
+          >
+          <a
+            href="#"
+            class="p-4 hover:bg-[#EDF2F9] hover:border-b-4 hover:border-b-[#C1CDDD] duration-300"
+          >
+            <p>Admissions</p>
+          </a>
+          <a
+            href="#"
+            class="p-4 hover:bg-[#EDF2F9] hover:border-b-4 hover:border-b-[#C1CDDD] duration-300"
+          >
+            <p>Researches</p>
+          </a>
+          <a
+            href="#"
+            class="p-4 hover:bg-[#EDF2F9] hover:border-b-4 hover:border-b-[#C1CDDD] duration-300"
+          >
+            <p>Global</p>
+          </a>
+          <a
+            href="#"
+            class="p-4 hover:bg-[#EDF2F9] hover:border-b-4 hover:border-b-[#C1CDDD] duration-300"
+          >
+            <p>Faith & Service</p>
+          </a>
+          <a
+            href="#"
+            class="p-4 hover:bg-[#EDF2F9] hover:border-b-4 hover:border-b-[#C1CDDD] duration-300"
+          >
+            <p>Campus Life</p>
+          </a>
+          <a
+            href="#"
+            class="p-4 hover:bg-[#EDF2F9] hover:border-b-4 hover:border-b-[#C1CDDD] duration-300"
+          >
+            <img src="images/search_strong_icon.png" alt="" width="30" />
+          </a>
+        </div>
+      </div>
     </header>
 
-    <nav class="z-20 sticky top-0 p-2 flex justify-around lg:hidden bg-white">
+    <nav
+      class="z-20 sticky top-0 p-4 flex justify-around lg:hidden bg-white text-[12px]"
+    >
       <a href="#" class="grid"
         ><img
           src="images/home_icon.svg"
           alt=""
-          width="25"
+          width="20"
           class="place-self-center"
         />
         <p class="">HOME</p></a
@@ -38,7 +149,7 @@
         ><img
           src="images/envelope_mail_message_icon.svg"
           alt=""
-          width="25"
+          width="20"
           class="place-self-center"
         />
         <p class="">CONTACT</p></a
@@ -47,7 +158,7 @@
         ><img
           src="images/search_strong_icon.png"
           alt=""
-          width="25"
+          width="20"
           class="place-self-center"
         />
         <p class="">SEARCH</p></a
@@ -56,7 +167,7 @@
         ><img
           src="images/menu_icon.svg"
           alt=""
-          width="25"
+          width="20"
           class="place-self-center"
         />
         <p class="">MENU</p></a
@@ -65,25 +176,15 @@
 
     <main class="grid">
       <section
-        class="lg:w-[100vw] lg:h-[100vh] bg-[url('images/campus_spring_scenic-1200.webp')] bg-cover"
+        class="lg:w-[100vw] lg:h-[100vh] bg-[url('images/campus_spring_scenic-1200.webp')] bg-cover mb-10"
       >
         <div
           class="grid lg:w-[100vw] lg:h-[100vh] lg:p-20 bg-[#0C2340] opacity-90"
         >
           <div class="lg:w-1/2 place-self-end text-white">
             <div class="grid gap-10 p-10 md:m-0 md:col-start-2 lg:col-start-3">
-              <div
-                class="w-1/2 lg:w-1/2 place-self-end text-right text-4xl md:text-5xl lg:text-7xl font-bold font-[GPC]"
-              >
-                <p>WHAT WOULD</p>
-                <div>
-                  <img
-                    src="images/monogram.svg"
-                    alt=""
-                    class="w-10 lg:w-20 place-self-end"
-                  />
-                </div>
-                <p>YOU FIGHT FOR?</p>
+              <div class="w-1/2 lg:w-1/2 place-self-center md:place-self-end">
+                <img src="images/logo-wwyff-w.svg" alt="" class="" />
               </div>
 
               <div class="md:w-1/2 lg:w-3/4 place-self-end">
@@ -269,7 +370,7 @@
         </div>
       </section>
 
-      <!-----------------------------------------------UNIVERSITY NEWS----------------------------------------------------------- -->
+      <!-----------------------------------------------UNIVERSITY NEWS------------------------------------------------------------ -->
       <section class="w-[90vw] place-self-center my-5 md:my-20 text-[#0C2340]">
         <p class="mb-2 font-['Libre Franklin'] text-lg text-[#575757]">
           UNIVERSITY NEWS
@@ -362,7 +463,7 @@
         </div>
       </section>
 
-      <!-----------------------------------------------UNIVERSITY STORIES----------------------------------------------------------- -->
+      <!-- ---------------------------------------------UNIVERSITY STORIES-------------------------------------------------------- -->
       <section class="w-[90vw] place-self-center my-5 md:my-20">
         <p class="mb-2 font-['Libre Franklin'] text-lg text-[#575757]">
           UNIVERSITY STORIES
@@ -486,6 +587,126 @@
           </p>
         </div>
       </div>
+
+      <!-- --------------------------------------------------UNIVERSITY EVENTS---------------------------------------------------- -->
+      <section class="w-[90vw] place-self-center my-5 md:my-20">
+        <p class="mb-2 font-['Libre Franklin'] text-lg text-[#575757]">
+          UNIVERSITY EVENTS
+        </p>
+        <div class="grid mb-2">
+          <p class="text-[#0C2340] font-[GPC] text-3xl lg:text-5xl">
+            <strong>Notre Dame In Motion</strong>
+          </p>
+
+          <a
+            href="#"
+            class="flex hover:bg-[#E1E8F2] p-2 rounded-xl duration-300 md:place-self-end font-['Libre Franklin'] text-[#0C2340]"
+          >
+            <p class="md:text-lg self-center">View all events</p>
+            <img
+              src="images/arrow-right-s-line.svg"
+              alt=""
+              width="20"
+              class="self-center"
+            />
+          </a>
+        </div>
+
+        <div
+          class="grid md:grid-cols-2 md:grid-rows-2 gap-5 lg:gap-10 text-[#0C2340]"
+        >
+          <div class="flex gap-5 lg:gap-10">
+            <div class="text-center self-center">
+              <p class="text-xl lg:text-2xl text-[#575757]">MAR</p>
+              <p class="font-bold text-4xl lg:text-5xl">20</p>
+            </div>
+            <div
+              class="grid gap-2 w-full p-5 hover:border-b-4 hover:border-b-[#C1CDDD] hover:bg-[#E1E8F2] duration-300"
+            >
+              <p class="text-xl">
+                Ten Years Hence Lecture: "A Brief History of the Future"
+              </p>
+              <div class="flex gap-2">
+                <img
+                  src="images/clock_hour_ticker_time_times_icon.svg"
+                  alt=""
+                  width="20"
+                />
+                <p class="text-[#575757] text-lg self-center">
+                  Fri, Feb 28 at 10:40 am
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-5 lg:gap-10">
+            <div class="text-center self-center">
+              <p class="text-xl lg:text-2xl text-[#575757]">MAR</p>
+              <p class="font-bold text-4xl lg:text-5xl">8</p>
+            </div>
+            <div
+              class="grid gap-2 w-full p-5 hover:border-b-4 hover:border-b-[#C1CDDD] hover:bg-[#E1E8F2] duration-300"
+            >
+              <p class="text-xl">Spring Break (no classes in session)</p>
+              <div class="flex gap-2">
+                <img
+                  src="images/clock_hour_ticker_time_times_icon.svg"
+                  alt=""
+                  width="20"
+                />
+                <p class="text-[#575757] text-lg self-center">Sat, Mar 8</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-5 lg:gap-10">
+            <div class="text-center self-center">
+              <p class="text-xl lg:text-2xl text-[#575757]">MAR</p>
+              <p class="font-bold text-4xl lg:text-5xl">19</p>
+            </div>
+            <div
+              class="grid gap-2 w-full p-5 hover:border-b-4 hover:border-b-[#C1CDDD] hover:bg-[#E1E8F2] duration-300"
+            >
+              <p class="text-xl">
+                Lecture by Doug Marsh: "Reflections on Building the University
+                of Notre Dame Campus"
+              </p>
+              <div class="flex gap-2">
+                <img
+                  src="images/clock_hour_ticker_time_times_icon.svg"
+                  alt=""
+                  width="20"
+                />
+                <p class="text-[#575757] text-lg self-center">
+                  Wed, Mar 19 at 5:30 pm
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex gap-5 lg:gap-10">
+            <div class="text-center self-center">
+              <p class="text-xl lg:text-2xl text-[#575757]">MAR</p>
+              <p class="font-bold text-4xl lg:text-5xl">20</p>
+            </div>
+            <div
+              class="grid gap-2 w-full p-5 hover:border-b-4 hover:border-b-[#C1CDDD] hover:bg-[#E1E8F2] duration-300"
+            >
+              <p class="text-xl">
+                The 26th Annual Dialogues on Nonviolence, Religion, and Peace
+                featuring The Honorable Emilce Cuda
+              </p>
+              <div class="flex gap-2">
+                <img
+                  src="images/clock_hour_ticker_time_times_icon.svg"
+                  alt=""
+                  width="20"
+                />
+                <p class="text-[#575757] text-lg self-center">
+                  Thu, Mar 20 at 11:00 am
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="py-10">
