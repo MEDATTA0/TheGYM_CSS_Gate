@@ -12,10 +12,57 @@
       rel="stylesheet"
     />
 
-    <title>Document</title>
+    <title>University of Notre Dame</title>
   </head>
-  <body>
-    <header></header>
+  <body class="">
+    <header
+      class="grid lg:grid-rows-1 lg:grid-cols-2 bg-[#0C2340] border-y-4 border-t-[#AE9142] border-b-[#081629]"
+    >
+      <div class="p-10 place-self-center">
+        <a href="#"><img src="images/logo.png" alt="" width="200" /></a>
+      </div>
+      <div class="hidden lg:block"></div>
+    </header>
+
+    <nav class="z-20 sticky top-0 p-2 flex justify-around lg:hidden bg-white">
+      <a href="#" class="grid"
+        ><img
+          src="images/home_icon.svg"
+          alt=""
+          width="25"
+          class="place-self-center"
+        />
+        <p class="">HOME</p></a
+      >
+      <a href="#" class="grid"
+        ><img
+          src="images/envelope_mail_message_icon.svg"
+          alt=""
+          width="25"
+          class="place-self-center"
+        />
+        <p class="">CONTACT</p></a
+      >
+      <a href="#" class="grid"
+        ><img
+          src="images/search_strong_icon.png"
+          alt=""
+          width="25"
+          class="place-self-center"
+        />
+        <p class="">SEARCH</p></a
+      >
+      <a href="#" class="grid"
+        ><img
+          src="images/menu_icon.svg"
+          alt=""
+          width="25"
+          class="place-self-center"
+        />
+        <p class="">MENU</p></a
+      >
+    </nav>
+
     <main class="grid">
       <section
         class="lg:w-[100vw] lg:h-[100vh] bg-[url('images/campus_spring_scenic-1200.webp')] bg-cover"
@@ -23,35 +70,36 @@
         <div
           class="grid lg:w-[100vw] lg:h-[100vh] lg:p-20 bg-[#0C2340] opacity-90"
         >
-          <div
-            class="md:w-1/2 lg:w-1/4 place-self-end text-white text-center md:text-right"
-          >
-            <div class="p-10 md:m-0 md:col-start-2 lg:col-start-3 font-[GPC]">
-              <div class="md:text-5xl lg:text-8xl font-bold">
+          <div class="lg:w-1/2 place-self-end text-white">
+            <div class="grid gap-10 p-10 md:m-0 md:col-start-2 lg:col-start-3">
+              <div
+                class="w-1/2 lg:w-1/2 place-self-end text-right text-4xl md:text-5xl lg:text-7xl font-bold font-[GPC]"
+              >
                 <p>WHAT WOULD</p>
                 <div>
                   <img
-                    src="images/monogram-32.png"
+                    src="images/monogram.svg"
                     alt=""
-                    width="30"
-                    class="place-self-end"
+                    class="w-10 lg:w-20 place-self-end"
                   />
                 </div>
                 <p>YOU FIGHT FOR?</p>
               </div>
 
-              <div>
-                <p class="text-lg md:text-xl lg:text-2xl">
+              <div class="md:w-1/2 lg:w-3/4 place-self-end">
+                <p
+                  class="text-lg md:text-xl lg:text-2xl text-center md:text-right"
+                >
                   Notre Dame attracts people willing to take action to find
                   solutions to humanity's most pressing challenges. "What would
                   you fight for?" For us, it's not a question. It's a call to
-                  action. We are the Fighting Irish
+                  action. We are the Fighting Irish.
                 </p>
               </div>
 
               <a
                 href="#"
-                class="flex bg-[#E1E8F2] p-2 rounded-xl duration-300 md:place-self-end font-['Libre Franklin'] text-[#0C2340]"
+                class="place-self-center flex bg-[#E1E8F2] p-2 rounded-xl duration-300 md:place-self-end font-['Libre Franklin'] text-[#0C2340]"
               >
                 <p class="md:text-lg self-center">What would you fight for?</p>
                 <img
