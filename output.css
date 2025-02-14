@@ -715,6 +715,9 @@
   .self-stretch {
     align-self: stretch;
   }
+  .justify-self-center {
+    justify-self: center;
+  }
   .justify-self-stretch {
     justify-self: stretch;
   }
@@ -778,6 +781,9 @@
   }
   .bg-white {
     background-color: var(--color-white);
+  }
+  .bg-zinc-200 {
+    background-color: var(--color-zinc-200);
   }
   .bg-\[url\(\'images\/campus_spring_scenic-1200\.webp\'\)\] {
     background-image: url('images/campus_spring_scenic-1200.webp');
